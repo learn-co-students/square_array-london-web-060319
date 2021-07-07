@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  result = []
+
+  for elem in array do
+    result << elem * elem
+  end
+
+  result
 end
